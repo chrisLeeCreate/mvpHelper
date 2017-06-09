@@ -54,6 +54,7 @@ public class MvpCreateAction extends AnAction {
             Messages.showInfoMessage(project, "create mvp code success", "title");
         });
         daggerDialog.setVisible(true);
+
     }
 
     private void initMVPFiles() {
