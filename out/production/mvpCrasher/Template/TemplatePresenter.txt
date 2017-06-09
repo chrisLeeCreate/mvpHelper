@@ -1,0 +1,13 @@
+package $packagename;
+
+import android.content.Context;
+
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+public class $namePresenter(var view:$nameContract.View, var $nameIntractor: $nameContract.Interactor) : $nameContract.Presenter{
+
+}

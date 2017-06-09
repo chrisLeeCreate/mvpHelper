@@ -1,0 +1,23 @@
+package $packagename;
+
+import android.content.Context;
+import dagger.Module
+import dagger.Provides
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+@Module
+class $nameModule(private val view: $nameContract.View) {
+        @Provides
+        fun get$nameV(): $nameContract.Interactor {
+           return $nameInteractor()
+        }
+
+        @Provides
+        fun get$nameP(Interactor: $nameContract.Interactor): $nameContract.Presenter {
+          return $namePresenter(view, Interactor)
+        }
+}

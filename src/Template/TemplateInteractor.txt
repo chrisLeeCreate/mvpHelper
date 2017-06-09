@@ -1,0 +1,12 @@
+package $packagename;
+
+import android.content.Context;
+
+/**
+ * @author $author
+ * @Package $packagename
+ * @Description: $description
+ * @date $date
+ */
+public class $nameInteractor : $nameContract.Interactor{
+}
