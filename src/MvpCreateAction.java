@@ -40,7 +40,6 @@ public class MvpCreateAction extends AnAction {
     }
 
     private void init() {
-
         DaggerDialog daggerDialog = new DaggerDialog((author, moduleName, isActivity, isDagger) -> {
             mAuthor = author;
             mModuleName = moduleName;
@@ -54,7 +53,6 @@ public class MvpCreateAction extends AnAction {
             Messages.showInfoMessage(project, "create mvp code success", "title");
         });
         daggerDialog.setVisible(true);
-
     }
 
     private void initMVPFiles() {
