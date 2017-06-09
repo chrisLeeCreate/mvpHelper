@@ -40,6 +40,7 @@ public class MvpCreateAction extends AnAction {
     }
 
     private void init() {
+        //我爱李兵
         DaggerDialog daggerDialog = new DaggerDialog((author, moduleName, isActivity, isDagger) -> {
             mAuthor = author;
             mModuleName = moduleName;
